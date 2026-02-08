@@ -41,7 +41,7 @@ A real-time computer vision system designed to analyze student engagement and em
 AI_Classroom_Monitor/
 ├── src/
 │   ├── detector.py       # Core AI logic (Face, Eyes, Emotion)
-│   └── __init__.py
+│   └── latest_report     # visual results
 ├── assets/
 │   └── known_faces/      # Add reference images for face recognition
 ├── logs/                 # Session CSV logs (auto-generated)
@@ -57,7 +57,7 @@ AI_Classroom_Monitor/
 ### 1️⃣ Install Dependencies
 
 ```bash
-pip install opencv-python deepface pandas matplotlib
+pip install -r requirements.txt
 ```
 
 ### 2️⃣ Start the Monitor
@@ -84,7 +84,7 @@ The system automatically:
 - Generates visual reports using Matplotlib
 - Saves analytics charts (e.g., `latest_report.png`)
 
-> 📌 Add a screenshot of `latest_report.png` here for better presentation.
+> <img width="1400" height="800" alt="latest_report" src="https://github.com/user-attachments/assets/eebb9adf-d043-4a78-8852-eda8cbe07d93" />
 
 ---
 
