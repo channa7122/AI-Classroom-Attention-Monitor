@@ -7,7 +7,7 @@ import statistics
 
 class AttentionDetector:
     def __init__(self):
-        # 1. Standard Detectors (NO CHANGES HERE)
+        # 1. Standard Detectors 
         self.face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
         self.eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
         
